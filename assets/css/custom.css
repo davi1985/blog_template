@@ -1,0 +1,114 @@
+/* HEADER CSS */
+body {
+    /* font-family: 'Raleway', sans-serif !important; */
+    font-family: "Open Sans", sans-serif
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #999999;
+}
+a {
+    text-decoration: none;
+    color: #999999;
+}
+/* .header {
+    background-image: url(../img/trent-erwin-338084-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.about {
+    color: #2e2e2e;
+}
+.page-title {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.page-title li {
+    list-style: none;
+}
+.logo{
+    margin-top: 1em;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list, li{
+    /* display: inline; */
+    padding: 20px;
+}
+
+/* POSTS CSS */
+.post {
+    width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
+}
+.divider {
+    color: #EBF2F6;
+}
+
+.post-title {
+    font-size: 3.2rem;
+    color: #2E2E2E;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-rendering: geometricPrecision;
+}
+.post-content {
+    font-family: sans-serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.5rem;
+    line-height: 1.75em;
+    color: #3A4145;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
+}
+.post-meta {
+    display: block;
+    margin: 1.75rem 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: #9EABB3;
+}
+.author-thumb {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 100%;
+}
+.post-date {
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer span:hover {
+    color: #696969;
+}
